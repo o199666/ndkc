@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:textSize="20sp"
+
+        android:id="@+id/btn_java"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="java调用C方法"
+        android:textColor="@color/colorred" />
+
+    <Button
+        android:id="@+id/btn_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C调用java"
+        android:textSize="20sp"
+        android:textColor="@color/coloblue" />
+
+    <Button
+        android:id="@+id/btn_mt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="美图秀秀"
+        android:textSize="20sp"
+        android:textColor="@color/coloblue" />
+    <Button
+        android:id="@+id/btn_yali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="压力锅"
+        android:textSize="20sp"
+        android:textColor="@color/coloblue" />
+
+    <TextView
+        android:layout_marginTop="50dp"
+
+        android:id="@+id/tv_java"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123123"
+        android:textStyle="bold"
+        android:textColor="@color/colorred"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:id="@+id/tv_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="123123"
+        android:textColor="@color/coloblue"
+        android:textSize="25sp" />
+
+</LinearLayout>
